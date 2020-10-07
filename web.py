@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return "DENTRO DO CARRO HOJE VAI TER OUSADIA COM MIKE WAZOLSKI HOJE VAI TER OUSADIAAAAAAAAAAAAAAAAAAA"
+    return "Ski-bi dibby dib yo da dub dub Yo da dub dub Ski-bi dibby dib yo da dub dub Yo da dub dub"
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
